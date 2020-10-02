@@ -12,7 +12,7 @@
 
 > ## Interpolasi :
 > ### A. Interpolasi Polinomial
-> Polinomial orde ke-n digunakan sebagai interpolasi fungsi
+> `Polinomial` orde ke-n digunakan sebagai interpolasi fungsi
 <center>
 <img src="https://render.githubusercontent.com/render/math?math=f(x)=b_0 %2Bb_1x %2Bb_2x^2 %2Bb_3x^3%2B\cdots%2Bb_nx^n ">
 </center><br>
@@ -45,12 +45,46 @@ Nilai `f(2.2)` diestimasi menggunakan interpolasi polinomial orde kedua:
 
 > Atau dalam bentuk matriks dapat diubah menjadi
 <center>
-<img src="https://render.githubusercontent.com/render/math?math=\begin{bmatrix}1 & 1 & 1 \\ 1 & 2 & 4 \\ 1 & 3 & 9 \end{bmatrix} ">
+<img src="https://github.com/FajrulHQ/pict/blob/main/Acara%203/Picture18.png?raw=True">
+</center>
+
+> Persamaan di atas dapat diselesaikan dengan eliminasi Gauss. Hasilnya kita dapatkan koefisien b<sub>0</sub> = 6, b<sub>1</sub> = -11, dan b<sub>2</sub> = 6. Interpolasi fungsi menjadi
+<center>
+<img src="https://render.githubusercontent.com/render/math?math=f(x)=6-11x%2B6x^2 ">
+</center>
+
+> Didapat estimasi nilai `f(2.2)`
+<center>
+<img src="https://render.githubusercontent.com/render/math?math=f(2.2)=6-11(2.2)%2B6(2.2)^2 "><br>
+=10.83
+</center>
+
+> Dengan nilai error sebesar (fungsi sebenarnya adalah `f(x) = x3`
+<center>
+<img src="https://render.githubusercontent.com/render/math?math=err =\left\lvert{\frac{f(x)-f_r(x)}{f_r(x)}}\right\rvert"><br>
+<img src="https://render.githubusercontent.com/render/math?math==\left\lvert{\frac{10.84-2.2^3}{2.2^3}}\right\rvert "><br>
+=1.8%
+</center>
+
+> Di mana f(x) merupakan nilai estimasi _(estimated value)_, sedangkan f<sub>r</sub>(x) merupakan nilai sebenarnya _(exact value)
+
+> ### B. Interpolasi Lagrange
+> `Interpolasi Lagrange` untuk estimasi nilai f(x) didefinisikan sebagai:
+<center>
+<img src="https://render.githubusercontent.com/render/math?math=f(x)=\sum_{i=1}^{N%2B1}li(x)f(x_i) "><br><br>
+<img src="https://render.githubusercontent.com/render/math?math=l_i(x)=\prod_{j=1,j\ne i}^{N%2B1}\frac{x-x_j}{x_i-x_j} ">
+</center>
+
+> Dengan _li_ merupakan `interpolasi Lagrange` dan N adalah `orde polinomial`.
+Misalkan untuk `orde polinomial` N=2
+<center>
+<img src="https://render.githubusercontent.com/render/math?math=f(x)=l_1(x)f(x_1)%2Bl_2(x)f(x_2)%2Bl_3(x)f(x_3) "><br><br>
+<img src="https://render.githubusercontent.com/render/math?math=l_1(x)=\frac{(x-x_2)(x-x_3)}{(x_1-x_2)(x_2-x_3)} "><br><br>
+<img src="https://render.githubusercontent.com/render/math?math=l_2(x)=\frac{(x-x_1)(x-x_3)}{(x_2-x_1)(x_2-x_3)} "><br><br>
+<img src="https://render.githubusercontent.com/render/math?math=l_3(x)=\frac{(x-x_1)(x-x_2)}{(x_3-x_1)(x_3-x_2)} ">
 </center>
 
 ---
-
-<img src="https://render.githubusercontent.com/render/math?math= ">
 
 > ## Curve Fitting :
 > Data-data yang bersifat diskrit dapat dibuat continuum melalui proses curve-fitting. Curve-fitting merupakan proses data-smoothing, yakni proses pendekatan terhadap kecenderungan data-data dalam bentuk persamaan model matematika.

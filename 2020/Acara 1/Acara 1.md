@@ -1,5 +1,8 @@
-<center> <h1> Modul Praktikum Numerik </h1> </center>
-<center> <h2> Acara 1. Sistem Persamaan Linear simultaneous</h2> </center>
+<center> 
+
+# Modul Praktikum Numerik
+## Acara 1. Sistem Persamaan Linear simultaneous
+</center>
 
 > ### Link Modul 
 >* [Google Drive](https://drive.google.com/drive/folders/1uMaBNZ2VWBWpx080plEPaRVnLfh66UfH?usp=sharing)

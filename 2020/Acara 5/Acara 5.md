@@ -1,5 +1,8 @@
-<center> <h1> Modul Praktikum Numerik </h1> </center>
-<center> <h2> Acara 5. ODE <br>Ordinary Differential Equations </h2> </center>
+<center> 
+
+# Modul Praktikum Numerik </h1>
+## Acara 6. Partial Differential Equations (ODE) 
+</center>
 
 > ### Link Modul
 > * [Google Drive](https://drive.google.com/drive/folders/1uMaBNZ2VWBWpx080plEPaRVnLfh66UfH?usp=sharing)
@@ -42,7 +45,6 @@ Model penurunan suhu akibat pengaruh atsmosfer di sekitarnya:
 
 > Untuk nilai x dekat dengan x<sub>0</sub>
 
----
 <center>
 <img src="https://render.githubusercontent.com/render/math?math=y(x)\approx y'(x_0)(x-x_0)%2By(x_0)=(x-x_0)f(x_0,y_0)%2By_0 "><br><br>
 <img src="https://render.githubusercontent.com/render/math?math=y(x_1)\approx (x_1-x_0)f(x_0,y_0)%2By_0=\Delta xf(x_0,y_0)%2By_0 "><br>

@@ -1,5 +1,8 @@
-<center> <h1> Modul Praktikum Numerik </h1> </center>
-<center> <h2> Acara 2. Sistem non linear dan mencari akar </h2> </center>
+<center> 
+
+# Modul Praktikum Numerik
+## Acara 2. Sistem non linear dan mencari akar 
+</center>
 
 > ### Link Modul
 > * [Google Drive](https://drive.google.com/drive/folders/1uMaBNZ2VWBWpx080plEPaRVnLfh66UfH?usp=sharing)

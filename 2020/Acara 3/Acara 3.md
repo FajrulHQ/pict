@@ -33,9 +33,23 @@ Solusi :
 Nilai `f(2.2)` diestimasi menggunakan interpolasi polinomial orde kedua:
 <center>
 <img src="https://render.githubusercontent.com/render/math?math=f(x)=b_0%2Bb_1x%2Bb_2x^2 ">
+</center><br>
+
+> Masukkan nilai `x=1`, `x=2`, dan `x=1` kita dapatkan 3 persamaan :
+
+<center>
+<img src="https://render.githubusercontent.com/render/math?math=b_0%2Bb_1%2Bb_2=1 "><br>
+<img src="https://render.githubusercontent.com/render/math?math=b_0%2B2b_1%2B4b_2=8 "><br>
+<img src="https://render.githubusercontent.com/render/math?math=b_0%2B3b_1%2B9b_2=27 ">
+</center><br>
+
+> Atau dalam bentuk matriks dapat diubah menjadi
+<center>
+<img src="https://render.githubusercontent.com/render/math?math=\begin{bmatrix}1 & 1 & 1 \\ 1 & 2 & 4 \\ 1 & 3 & 9 \end{bmatrix} ">
 </center>
 
 ---
+
 <img src="https://render.githubusercontent.com/render/math?math= ">
 
 > ## Curve Fitting :

@@ -4,8 +4,9 @@
 > ### Link Modul
 > * [Google Drive](https://drive.google.com/drive/folders/1uMaBNZ2VWBWpx080plEPaRVnLfh66UfH?usp=sharing)
 > * [Github](https://github.com/FajrulHQ/Prakt-Numerik)
->>  * [Acara 1 (Drive) - Sistem Persamaan Linear simultaneous)](https://google.com)
->>  * [Acara 2 (Drive) - Sistem non linear dan mencari akar](https://google.com)
+>>  * [Acara 1 - Sistem Persamaan Linear simultaneous](https://github.com/FajrulHQ/Prakt-Numerik/blob/main/Acara%201/Acara%201.md) [__[Download Here]__](https://drive.google.com/drive/u/0/folders/1183IOE2AyPF-gyQVuzTEYEBTQUtLgtzp)
+>>  * [Acara 2 - Sistem non linear dan mencari akar](https://github.com/FajrulHQ/Prakt-Numerik/blob/main/Acara%202/Acara%202.md) __[Download Here]__
+
 > ### Contents
 >1. Metode Biseksi
 >1. Metode Newton Raphson

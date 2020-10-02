@@ -1,5 +1,5 @@
 <center> <h1> Modul Praktikum Numerik </h1> </center>
-<center> <h2> Acara 3. Interpolasi dan kurva fitting </h2> </center>
+<center> <h2> Acara 4. Differensiasi dan Integrasi </h2> </center>
 
 > ### Link Modul
 > * [Google Drive](https://drive.google.com/drive/folders/1uMaBNZ2VWBWpx080plEPaRVnLfh66UfH?usp=sharing)

@@ -8,7 +8,9 @@
 >>  * [Acara 2 - Sistem non linear dan mencari akar](https://github.com/FajrulHQ/Prakt-Numerik/blob/main/Acara%202/Acara%202.md) __[Download Here]__
 >>  * [Acara 3 - Interpolasi dan kurva fitting](https://github.com/FajrulHQ/Prakt-Numerik/blob/main/Acara%203/Acara%203.md) __[Download Here]__
 >>  * [Acara 4 - Differensiasi dan Integrasi](https://github.com/FajrulHQ/Prakt-Numerik/blob/main/Acara%204/Acara%204.md) __[Download Here]__
->>  * [Acara 5 - Ordinary Differential Equations(ODE)](https://github.com/FajrulHQ/Prakt-Numerik/blob/main/Acara%205/Acara%205.md) __[Download Here]__
+>>  * [Acara 5 - Ordinary Differential Equations (ODE)](https://github.com/FajrulHQ/Prakt-Numerik/blob/main/Acara%205/Acara%205.md) __[Download Here]__
+
+---
 
 > ## Pengantar
 > Persamaan Differensial adalah persamaan yang mempunyai fungsi satu variabel bebas. Persamaan Differensial Biasa (`Ordinary Partial Differential`) adalah persamaan differensial yang mempunyai fungsi satu variabel bebas.

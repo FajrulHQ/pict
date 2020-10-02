@@ -49,6 +49,7 @@ Prakt-Numerik)
 > Penyelesaian `u` adalah nilai suhu pada jarak `x` dari batas isolasi setelah `t` sekon
 
 > ### C. Persamaan Hiperbolik
+
 > Contoh persamaan perambatan gelombang 1D
  <center>
 <img src="https://render.githubusercontent.com/render/math?math=\frac{\delta ^2u}{\delta ^2t}=c^2\frac{\delta^2u}{\delta x^2} ">
@@ -59,5 +60,12 @@ Prakt-Numerik)
 ---
 <br>
 > Contoh    :
+<center>
+<img src="https://github.com/FajrulHQ/pict/blob/main/Acara%206/Picture%201.png?raw=true ">
+</center>
 
-<img src="https://render.githubusercontent.com/render/math?math= ">
+> Persamaan perambatan panas 1D
+<center>
+<img src="https://render.githubusercontent.com/render/math?math=\frac{dT(i)}{dt}=\alpha[\frac{-(T_i-T_{i-1})}{\Delta x^2}%2B\frac{(T_{i%2B1}-T_i)}{\Delta x^2}] "><br><br>
+<img src="https://render.githubusercontent.com/render/math?math=T(t%2B\Delta t)\approx T(t)%2B\frac{dT}{dt}|_t^{\Delta t} ">
+</center>

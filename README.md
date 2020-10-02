@@ -6,4 +6,4 @@
 >>  * [Acara 3 - Interpolasi dan kurva fitting](https://github.com/FajrulHQ/pict/blob/main/2020/Acara%203/Acara%203.md) __[Download Here]__
 >>  * [Acara 4 - Differensiasi dan Integrasi](https://github.com/FajrulHQ/pict/blob/main/2020/Acara%204/Acara%204.md) __[Download Here]__
 >>  * [Acara 5 - ODE](https://github.com/FajrulHQ/pict/blob/main/2020/Acara%205/Acara%205.md) __[Download Here]__
->>  * Acara 6 - PDE __[Download Here]__
+>>  * [Acara 6 - PDE](https://github.com/FajrulHQ/pict/blob/main/2020/Acara%206/Acara%206.md) __[Download Here]__

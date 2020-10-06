@@ -13,6 +13,7 @@
 > 1. Tujuan
 > 1. Eliminasi Gauss
 > 1. Eliminasi Jacobi
+> 1. Penerapan di Geofisika
 ---
 > ## 1. Pendahuluan
 > Pada acara ke 1 ini, kita akan belajar mengenai Sistem Persamaan Linear serta implementasi kode python untuk menghitung operasi SPL.
@@ -49,40 +50,9 @@
 </center>
 
 ```python
-# Gauss Elimination
-
-import numpy as np
-def gaussElimin(a,b):
-  n = len(b)
-  
-  # Elimination Phase
-  for k in range(0,n-1):
-    for i in range(k+1,n):
-       
-      if a[i,k] != 0.0:
-        lam = a[i,k]/a[k,k]
-        a[i,k+1:n] = a[i,k+1:n] - lam*a[k,k+1:n]
-        b[i] = b[i] - lam*b[k]
-
-# Back substitution
-  for k in range(n-1,-1,-1):
-    b[k] = (b[k] - np.dot(a[k,k+1:n],b[k+1:n]))/a[k,k]
-  return b
-
-A = np.array([[4.0,-2.0,1.0],
-              [-2.0,4.0,-2.0],
-              [1.0,-2.0,4.0]])
-
-B = np.array([11.0,-16.0,17.0])
-
-aOrig = A.copy() # Save original matrix
-bOrig = B.copy() # and the constant vector
-x = gaussElimin(A,B)
-det = np.prod(np.diagonal(A))
-print('x =',x)
-print('\ndet =',det)
-print('\nCheck result: [a]{x} - b =',np.dot(aOrig,x) - bOrig)
-input("\nPress return to exit")
+-----------------------------------------------------------
+# Script python akan ditampilkan di jam Praktikum
+-----------------------------------------------------------
 ```
 ---
 > ## 4.Eliminasi Jacobi
@@ -154,58 +124,12 @@ Proses diatas dapat di katakan 1 proses iterasi. Untuk mencari nilai _second app
 </center>
 
 ```python
-import numpy as np
-
-A = np.array([[4.0,-2.0,1.0],
-              [-2.0,4.0,-2.0],
-              [1.0,-2.0,4.0]])
-
-b = np.array([11.0,-16.0,17.0])
-
-# toleransi error
-tolerance = 0.00001
-
-# iterasi masksimal
-max_iter = 1000
-
-nA = len(A)
-
-# matrik identitas
-D = np.identity(nA)
-
-D_inv = np.zeros((nA,nA))
-
-for i in range(nA):
-    D_inv[i][i] = 1.0/A[i][i]
-
-C = D - np.dot(D_inv,A)
-d = np.dot(D_inv,b)
-
-# nilai x awal
-x_old = np.array([0,0,0])
-
-# perhitungan nilai x dan iterasinya
-for iteration in range(max_iter):
-    x = d + np.dot(C,x_old)
-    for i in range(nA):
-        print(iteration,x[i],x[i]-x_old[i])
-
-    error = np.max(abs(x-x_old))
-    
-    x_old = x
-    
-    # cek konvergensi
-    if(error<tolerance):
-        print()
-        print("Penyelesaian matriks x adalah")
-        for i in range (nA):
-            print("x%s="%(i+1),x[i])
-        print()
-        print("error= ",error)
-        break
+-----------------------------------------------------------
+# Script python akan ditampilkan di jam Praktikum
+-----------------------------------------------------------
 ```
 
-> ## 5. Penerapan dibidang Geofisika
+> ## 5. Penerapan di Geofisika
 > Pada iterasi jacobi memiliki bentuk `Ax = B` sama halnya dengan forward problem yaitu `Gm = d`,  dimana `G` adalah fungsi pembangkit, `m` adalah parameter model dan `d` adalah data yang dicari. pada iterasi jacobi dicari nilai `x` sedangkan pada geofisika, kita akan mencari `m`, dimana `d` sudah diperoleh dari data lapangan dan `G` adalah persamaan matematis, proses ini disebut __inverse modelling__. Diperlukan tebakan awal sebagai model awal, tebakan awal akan mempengaruhi kecepatan iterasi dalam mencapai model yang sebenarnya. dalam melakukan iterasi dilihat pada nilai errornya, jika error kecil maka sudah mendekati model sebenarnya.
 <center>
     <img alt="Acara 1" src="https://github.com/FajrulHQ/pict/blob/main/Acara%201/14.jpeg?raw=true">

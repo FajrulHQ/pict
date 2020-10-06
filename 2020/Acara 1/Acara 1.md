@@ -8,7 +8,6 @@
 >* [Google Drive](https://drive.google.com/drive/folders/1uMaBNZ2VWBWpx080plEPaRVnLfh66UfH?usp=sharing)
 > * [Github](https://github.com/FajrulHQ/Prakt-Numerik)
 >>  * [Acara 1 - Sistem Persamaan Linear simultaneous](https://github.com/FajrulHQ/Prakt-Numerik/blob/main/Acara%201/Acara%201.md) [__[Download Here]__](https://drive.google.com/drive/u/0/folders/1183IOE2AyPF-gyQVuzTEYEBTQUtLgtzp)
-
 > ### Contents
 > 1. Pendahuluan
 > 1. Tujuan
@@ -205,3 +204,9 @@ for iteration in range(max_iter):
         print("error= ",error)
         break
 ```
+
+> ## 5. Penerapan dibidang Geofisika
+> Pada iterasi jacobi memiliki bentuk `Ax = B` sama halnya dengan forward problem yaitu `Gm = d`,  dimana `G` adalah fungsi pembangkit, `m` adalah parameter model dan `d` adalah data yang dicari. pada iterasi jacobi dicari nilai `x` sedangkan pada geofisika, kita akan mencari `m`, dimana `d` sudah diperoleh dari data lapangan dan `G` adalah persamaan matematis, proses ini disebut __inverse modelling__. Diperlukan tebakan awal sebagai model awal, tebakan awal akan mempengaruhi kecepatan iterasi dalam mencapai model yang sebenarnya. dalam melakukan iterasi dilihat pada nilai errornya, jika error kecil maka sudah mendekati model sebenarnya.
+<center>
+    <img alt="Acara 1" src="https://github.com/FajrulHQ/pict/blob/main/Acara%201/14.jpeg?raw=true">
+</center>
